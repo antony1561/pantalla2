@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        ////////////////////////////////////////////////////////////////////////
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:background="@mipmap/menucel">
+            </Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="arial"
+                android:text="EMDICEL"
+                android:textColor="#FF9800"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/carrito"
+                android:paddingRight="20dp"></Button>
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/busqueda"
+                android:paddingLeft="30dp"
+                android:paddingRight="20dp"></Button>
+        </LinearLayout>
+        ////////////////////////////////////////////////////////////////////////////////
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true" />
+        //////////////////////////////////////////////////////////////////////////////////
+        <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="arial"
+                android:text="NUESTROS PRODUCTOS"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        ///////////////////////////////////////////////////////////////////////////
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/iradescripcion"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/celular"
+                android:paddingRight="20dp"></Button>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:background="@mipmap/reloj"
+                android:paddingRight="20dp"></Button>
+        </LinearLayout>
+        ///////////////////////////////////////////////////////////////////////////
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="arial"
+                android:text="Galaxy S20+"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="arial"
+                android:text="Galaxy Watch Active 2"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        //////////////////////////////////////////////////////////////////////////
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
